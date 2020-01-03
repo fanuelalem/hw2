@@ -1,0 +1,31 @@
+#pic1 , #pic2 , #pic3 , #pic4 {width:200px;margin:25px;border: solid gray;}
+#pic1 {}
+#pic2 {}
+#pic3 {}
+#pic4 {}
+#containermain {margin-left: 150px;background-color:white;width:960px;border:solid #dddddd;}
+#name {
+    font-size: 35px;
+    width: 210px;
+    text-align: center;
+    margin-left: 150px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+}
+#header {}
+#background {}
+#container1 {padding: 0;border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
+.page{padding-bottom: 310px;padding-top: 20px;padding: o;background-image:url(./so-white.png)}
+#links {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    margin-top: 45px;
+}
+#about , #portfolio , #contact {margin: 5px;font-size: 15px;color: gray;}
+body {margin:0; padding:0}
+#footer {background-color:#666666;border-top:solid #4aaaa5}
+#copyright {text-align:center}
+h2{color: #4aaaa5;margin-top: 40px;}
