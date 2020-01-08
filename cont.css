@@ -1,29 +1,151 @@
-#name {
-    font-size: 35px;
-    width: 210px;
-    text-align: center;
-    margin-left: 150px;
-    background-color: #4aaaa5;
-    padding: 10px;
-    color: white;
-}
 
-#links {
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    margin-top: 45px;
-}
-#about , #portfolio , #contact {font-size: 15px;color: gray; margin:5px}
+* { margin:0;
+    padding:0;}
+    
+    #name {
+        font-size: 30px;
+        width: 188px;
+        text-align: center;
+        margin-left: 0px;
+        background-color: #4aaaa5;
+        padding: 10px;
+        color: white;
+        }
+    
+    #links {
+        width: 175px;
+        
+        background-color: white;
+        margin-top: 25px;
+        }
+     #about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+    
+    #originalcontainer {background-color: white;width: 100%;margin-left: 0;border:solid #dddddd;}
+    #input1 {margin-top:25px; width:100%}
+    #input2 {width:100%}
+    #input3 {height:300px;width:100%}
+    #about,#portfolio,#contact{color: gray;background-color:white;font-size: 15px;}
+    #submit {color: white;width: 80px;height: 45px;margin-bottom: 20px;size: 40px;background-color:#4aaaa5;font-size:18px;}
+    .page {background-image:url(./so-white.png);padding-top:20px;padding-bottom:310px;width:100%}
+    #containerx {padding-left: 0;margin-bottom: 45px;border: solid #dddddd;/* padding: 0; */background-color: white;}
+    h2{color: #4aaaa5;margin-top: 40px;}
+    #copyright {text-align:center}
+    #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+    #form {width:100%}
 
-#originalcontainer {background-color: white;width: 960px;margin-left: 150px;border:solid #dddddd;}
-#container1 {margin-top:25px;}
-input {width:880px;}
-#input2 {height:300px;}
-#about,#portfolio,#contact{color: gray;background-color:white;font-size: 15px;}
-#submit {color: white;width: 80px;height: 45px;margin-bottom: 20px;size: 40px;background-color:#4aaaa5;font-size:18px;}
-.page {background-image:url(./so-white.png);padding-top:20px;padding-bottom:310px;}
-#containerx {margin-bottom: 45px;border: solid #dddddd;padding: 0;background-color: white;}
-h2{color: #4aaaa5;margin-top: 40px;}
-#copyright {text-align:center}
-#footer {background-color:#666666;border-top:solid #4aaaa5}
+
+    
+    @media only screen and (min-width: 768px){ 
+
+
+        * { margin:0;
+        padding:0;}
+        
+        #name {
+            font-size: 30px;
+            width: 188px;
+            text-align: center;
+            margin-left: 20px;
+            background-color: #4aaaa5;
+            padding: 10px;
+            color: white;
+            }
+        
+        #links {
+            margin-left: 115px;
+            width: 175px;
+            background-color: white;
+            margin-top: 25px;
+            }
+         #about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+        
+        #originalcontainer {background-color: white;width: 100%;margin-left: auto;border:solid #dddddd;}
+        #input1 {margin-top:25px; width:100%}
+        #input2 {width:100%}
+        #input3 {height:300px;width:100%}
+        #about,#portfolio,#contact{color: gray;background-color:white;font-size: 15px;}
+        #submit {color: white;width: 80px;height: 45px;margin-bottom: 20px;size: 40px;background-color:#4aaaa5;font-size:18px;}
+        .page {background-image:url(./so-white.png);padding-top:20px;padding-bottom:310px;width:100%}
+        #containerx {margin-bottom: 45px;border: solid #dddddd;background-color: white;}
+        h2{color: #4aaaa5;margin-top: 40px;}
+        #copyright {text-align:center}
+        #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+        #form {width:100%}
+            }
+
+            @media only screen and (min-width: 1200px){ 
+
+
+                * { margin:0;
+                padding:0;}
+                
+                #name {
+                    font-size: 30px;
+                    width: 188px;
+                    text-align: center;
+                    margin-left: 115px;
+                    background-color: #4aaaa5;
+                    padding: 10px;
+                    color: white;
+                    }
+                
+                #links {
+                    margin-left: 215px;
+                    width: 175px;
+                    background-color: white;
+                    margin-top: 25px;
+                    }
+                 #about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+                
+                #originalcontainer {background-color: white;width: 960px;margin-left: auto;border:solid #dddddd;}
+                #input1 {margin-top:25px; width:100%}
+                #input2 {width:100%}
+                #input3 {height:300px;width:100%}
+                #about,#portfolio,#contact{color: gray;background-color:white;font-size: 15px;}
+                #submit {color: white;width: 80px;height: 45px;margin-bottom: 20px;size: 40px;background-color:#4aaaa5;font-size:18px;}
+                .page {background-image:url(./so-white.png);padding-top:20px;padding-bottom:310px;width:100%}
+                #containerx {margin-bottom: 45px;border: solid #dddddd;background-color: white;}
+                h2{color: #4aaaa5;margin-top: 40px;}
+                #copyright {text-align:center}
+                #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+                #form {width:100%}
+                    }
+
+
+                    @media only screen and (min-width: 1440px){ 
+
+
+                        * { margin:0;
+                        padding:0;}
+                        
+                        #name {
+                            font-size: 30px;
+                            width: 188px;
+                            text-align: center;
+                            margin-left: 235px;
+                            background-color: #4aaaa5;
+                            padding: 10px;
+                            color: white;
+                            }
+                        
+                        #links {
+                            margin-left: 235px;
+                            width: 175px;
+                            background-color: white;
+                            margin-top: 25px;
+                            }
+                         #about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+                        
+                        #originalcontainer {background-color: white;width: 960px;margin-left: auto;border:solid #dddddd;}
+                        #input1 {margin-top:25px; width:100%}
+                        #input2 {width:100%}
+                        #input3 {height:300px;width:100%}
+                        #about,#portfolio,#contact{color: gray;background-color:white;font-size: 15px;}
+                        #submit {color: white;width: 80px;height: 45px;margin-bottom: 20px;size: 40px;background-color:#4aaaa5;font-size:18px;}
+                        .page {background-image:url(./so-white.png);padding-top:20px;padding-bottom:310px;width:100%}
+                        #containerx {margin-bottom: 45px;border: solid #dddddd;background-color: white;}
+                        h2{color: #4aaaa5;margin-top: 40px;}
+                        #copyright {text-align:center}
+                        #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+                        #form {width:100%}
+                            }

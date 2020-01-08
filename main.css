@@ -1,3 +1,7 @@
+* {
+    margin:0;
+    padding:0;
+    }
 #image {
     margin-bottom: 20px;
     margin-right: 30px;
@@ -6,8 +10,48 @@
     float: left;
     }
 h2{color: #4aaaa5;margin-top: 40px;}
-#containerx {padding: 0;background-color:white;margin-bottom:45px;border:solid #dddddd;}
-#container1 {margin-left: 150px;border: solid #dddddd;background-color: white;width:960px;}
+#containerx {padding-left: 0;background-color: white;margin-bottom:45px;border:solid #dddddd;}
+#container1 {margin-left: 0;border: solid #dddddd;background-color: white;width: 100%;}
+#links {
+   width: 175px;
+   
+   background-color: white;
+   margin-top: 25px;
+   }
+#about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+#footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+.page {width: 100%;background-image:url(./so-white.png);padding-bottom:310px;padding-top: 20px;}
+#name {
+    font-size: 30px;
+    width: 188px;
+    text-align: center;
+    margin-left: 0px;
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    }
+#copyright {text-align:center}
+#paragraph {margin-top: 40px;color: black;}
+.page{width: 100%;padding-bottom: 100%;padding-top: 20px;background-image:url(./so-white.png);}
+
+
+@media only screen and (min-width: 768px){ 
+
+
+
+
+* { margin:0;
+    padding:0;}
+#image {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-top: 0;
+    height:190px;
+    float: left;
+    }
+h2{color: #4aaaa5;margin-top: 40px;}
+#containerx {background-color: white;margin-bottom:45px;border:solid #dddddd;}
+#container1 {width: 100%;margin-left: auto;border: solid #dddddd;background-color: white;}
 #links {
    width: 100%;
     text-align: center;
@@ -16,17 +60,95 @@ h2{color: #4aaaa5;margin-top: 40px;}
    
     }
 #about,#portfolio, #contact {font-size: 15px;color: gray; margin:5px}
-#footer {background-color:#666666;border-top:solid #4aaaa5}
-.page {width: 100%;background-image:url(./so-white.png);padding-bottom:310px;padding-top: 20px;}
+#footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+.page {width: 100%;background-image:url(./so-white.png);padding-bottom:100%;padding-top: 20px;}
 #name {
     font-size: 35px;
     width: 210px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 20px;
     background-color: #4aaaa5;
     padding: 10px;
     color: white;
     }
 #copyright {text-align:center}
 #paragraph {margin-top: 40px;color: black;}
-.page{padding-bottom: 310px;padding-top: 20px;padding: o;background-image:url(./so-white.png)}
+
+}
+
+@media only screen and (min-width: 1200px){ 
+
+
+
+    * { margin:0;
+        padding:0;}
+    #image {
+        margin-bottom: 20px;
+        margin-right: 30px;
+        margin-top: 0;
+        height:190px;
+        float: left;
+        }
+    h2{color: #4aaaa5;margin-top: 40px;}
+    #containerx {background-color: white;margin-bottom:45px;border:solid #dddddd;}
+    #container1 {width:960px;margin-left: auto;border: solid #dddddd;background-color: white;}
+    #links {
+       width: 100%;
+        text-align: center;
+        background-color: white;
+        margin-top: 45px;
+       
+        }
+    #about,#portfolio, #contact {font-size: 15px;color: gray; margin:5px}
+    #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+    .page {width: 100%;background-image:url(./so-white.png);padding-bottom:100%;padding-top: 20px;}
+    #name {
+        font-size: 35px;
+        width: 210px;
+        text-align: center;
+        margin-left: 116px;
+        background-color: #4aaaa5;
+        padding: 10px;
+        color: white;
+        }
+    #copyright {text-align:center}
+    #paragraph {margin-top: 40px;color: black;}
+
+    }
+    @media only screen and (min-width: 1440px){ 
+        
+        
+        * { margin:0;
+            padding:0;}
+        #image {
+            margin-bottom: 20px;
+            margin-right: 30px;
+            margin-top: 0;
+            height:190px;
+            float: left;
+            }
+        h2{color: #4aaaa5;margin-top: 40px;}
+        #containerx {background-color: white;margin-bottom:45px;border:solid #dddddd;}
+        #container1 {width:960px;margin-left: auto;border: solid #dddddd;background-color: white;}
+        #links {
+           width: 100%;
+            text-align: center;
+            background-color: white;
+            margin-top: 45px;
+           
+            }
+        #about,#portfolio, #contact {font-size: 15px;color: gray; margin:5px}
+        #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+        .page {width: 100%;background-image:url(./so-white.png);padding-bottom:100%;padding-top: 20px;}
+        #name {
+            font-size: 35px;
+            width: 210px;
+            text-align: center;
+            margin-left: 236px;
+            background-color: #4aaaa5;
+            padding: 10px;
+            color: white;
+            }
+        #copyright {text-align:center}
+        #paragraph {margin-top: 40px;color: black;}
+    }

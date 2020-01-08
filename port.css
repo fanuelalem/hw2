@@ -1,31 +1,143 @@
-#pic1 , #pic2 , #pic3 , #pic4 {width:200px;margin:25px;border: solid gray;}
-#pic1 {}
-#pic2 {}
-#pic3 {}
-#pic4 {}
-#containermain {margin-left: 150px;background-color:white;width:960px;border:solid #dddddd;}
+
+* { margin:0;
+    padding:0;}
+#pic1 , #pic2 , #pic3 , #pic4 {width: 75%;margin: 25px 45px;border: solid gray;}
+
+#containermain {border: solid #dddddd;margin-left: 0;background-color:white;width: 100%;}
+
 #name {
-    font-size: 35px;
-    width: 210px;
+    font-size: 30px;
+    width: 188px;
     text-align: center;
-    margin-left: 150px;
+    margin-left: 0px;
     background-color: #4aaaa5;
     padding: 10px;
     color: white;
+    
 }
 #header {}
 #background {}
-#container1 {padding: 0;border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
-.page{padding-bottom: 310px;padding-top: 20px;padding: o;background-image:url(./so-white.png)}
+#container1 {padding-left: 0;border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
+.page{padding-bottom: 310px;padding-top: 20px;padding: o;background-image:url(./so-white.png);width:100%}
 #links {
-    margin-left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: white;
-    margin-top: 45px;
-}
-#about , #portfolio , #contact {margin: 5px;font-size: 15px;color: gray;}
+   width: 175px;
+   
+   background-color: white;
+   margin-top: 25px;
+   }
+#about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
 body {margin:0; padding:0}
-#footer {background-color:#666666;border-top:solid #4aaaa5}
+#footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
 #copyright {text-align:center}
 h2{color: #4aaaa5;margin-top: 40px;}
+
+
+
+
+@media only screen and (min-width: 768px){ 
+
+
+
+    * { margin:0;
+        padding:0;}
+    #pic1 , #pic2 , #pic3 , #pic4 {width: 163px;margin:25px;border: solid gray;}
+    
+    #containermain {margin-left: auto;background-color:white;width: 100%;border:solid #dddddd;}
+    #name {
+        font-size: 35px;
+        width: 210px;
+        text-align: center;
+        margin-left: 20px;
+        background-color: #4aaaa5;
+        padding: 10px;
+        color: white;
+    }
+    #header {}
+    #background {}
+    #container1 {/* padding: 0; */border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
+    .page{padding-bottom: 100%;padding-top: 20px;padding: o;background-image:url(./so-white.png);width:100%;}
+    #links {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        margin-top: 45px;
+    }
+    #about , #portfolio , #contact {margin: 5px;font-size: 15px;color: gray;}
+    body {margin:0; padding:0}
+    #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+    #copyright {text-align:center}
+    h2{color: #4aaaa5;margin-top: 40px;}
+    }
+
+    @media only screen and (min-width: 1200px){ 
+
+
+
+        * { margin:0;
+            padding:0;}
+        #pic1 , #pic2 , #pic3 , #pic4 {width: 163px;margin:25px;border: solid gray;}
+        
+        #containermain {margin-left: auto;background-color:white;width: 960px;border:solid #dddddd;}
+        #name {
+            font-size: 35px;
+            width: 210px;
+            text-align: center;
+            margin-left: 115px;
+            background-color: #4aaaa5;
+            padding: 10px;
+            color: white;
+        }
+        #header {}
+        #background {}
+        #container1 {border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
+        .page{padding-bottom: 100%;padding-top: 20px;padding: o;background-image:url(./so-white.png);width:100%;}
+        #links {
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+            background-color: white;
+            margin-top: 45px;
+        }
+        #about , #portfolio , #contact {margin: 5px;font-size: 15px;color: gray;}
+        body {margin:0; padding:0}
+        #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+        #copyright {text-align:center}
+        h2{color: #4aaaa5;margin-top: 40px;}
+        }
+
+        @media only screen and (min-width: 1440px){ 
+
+
+
+            * { margin:0;
+                padding:0;}
+            #pic1 , #pic2 , #pic3 , #pic4 {width: 163px;margin:25px;border: solid gray;}
+            
+            #containermain {margin-left: auto;background-color:white;width: 960px;border:solid #dddddd;}
+            #name {
+                font-size: 35px;
+                width: 210px;
+                text-align: center;
+                margin-left: 236px;
+                background-color: #4aaaa5;
+                padding: 10px;
+                color: white;
+            }
+            #header {}
+            #background {}
+            #container1 {border: solid #dddddd;width: 100%;background-color: white;margin-bottom:45px;}
+            .page{padding-bottom: 100%;padding-top: 20px;padding: o;background-image:url(./so-white.png);width:100%;}
+            #links {
+                margin-left: 0;
+                width: 100%;
+                text-align: center;
+                background-color: white;
+                margin-top: 45px;
+            }
+            #about , #portfolio , #contact {margin: 5px;font-size: 15px;color: gray;}
+            body {margin:0; padding:0}
+            #footer {background-color:#666666;border-top:solid #4aaaa5; width:100%}
+            #copyright {text-align:center}
+            h2{color: #4aaaa5;margin-top: 40px;}
+            }
