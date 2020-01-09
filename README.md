@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # index/portfolio/contact
 
 portfolio/bio/contact website
@@ -63,6 +62,3 @@ This project is licensed under the MIT License
 
 * professorHat tip to anyone whose code, libraries, packages, or UI was used  / inspired from
 * teacher assistants
-=======
-# hw2
->>>>>>> 2ba94067865e5827bbb8d982c0ca34575c0b427b
