@@ -119,22 +119,25 @@
                         padding:0;}
                         
                         #name {
-                            font-size: 30px;
-                            width: 188px;
+                            font-size: 35px;
+                            width: 210px;
                             text-align: center;
-                            margin-left: 235px;
+                            margin-left: 236px;
                             background-color: #4aaaa5;
                             padding: 10px;
                             color: white;
                             }
                         
                         #links {
-                            margin-left: 235px;
-                            width: 175px;
+                            margin-left: 0;
+                            width: 100%;
+                            text-align: center;
                             background-color: white;
-                            margin-top: 25px;
+                            margin-top: 45px;
                             }
-                         #about,#portfolio, #contact {font-size: 15px;color: gray;margin: 2px;}
+                         #about,#portfolio, #contact {margin: 5px;
+                            font-size: 15px;
+                            color: gray;}
                         
                         #originalcontainer {background-color: white;width: 960px;margin-left: auto;border:solid #dddddd;}
                         #input1 {margin-top:25px; width:100%}
