@@ -1,6 +1,6 @@
-# index/portfolio/contact
+# quiz game
 
-portfolio/bio/contact website
+quiz game
 
 ## Getting Started
 
